@@ -5,6 +5,15 @@
   },
   "apps": [
     {
+"scripts": [
+  "../node_modules/jquery/dist/jquery.js",
+  "../node_modules/tether/dist/js/tether.js",
+  "../node_modules/bootstrap/dist/js/bootstrap.js"
+],
+"styles": [
+  "styles.css",
+  "../node_modules/bootstrap/dist/css/bootstrap.css"
+],
       "main": "src/main.ts",
       "tsconfig": "src/tsconfig.json",
       "mobile": false
