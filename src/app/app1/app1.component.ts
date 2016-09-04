@@ -3,9 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   moduleId: module.id,
   selector: 'app-root',
-  templateUrl: 'app.component.html',
-  styleUrls: ['app.component.css']
+  templateUrl: 'app1.component.html',
+  styleUrls: ['app1.component.css']
 })
-export class AppComponent {
+export class App1Component {
   title = 'app works!';
 }
